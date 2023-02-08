@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/.github.io/socialMediaApp/static/css/main.bb7738cd.css",
+    "main.js": "/.github.io/socialMediaApp/static/js/main.f2996e35.js",
+    "index.html": "/.github.io/socialMediaApp/index.html",
+    "main.bb7738cd.css.map": "/.github.io/socialMediaApp/static/css/main.bb7738cd.css.map",
+    "main.f2996e35.js.map": "/.github.io/socialMediaApp/static/js/main.f2996e35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb7738cd.css",
+    "static/js/main.f2996e35.js"
+  ]
+}
