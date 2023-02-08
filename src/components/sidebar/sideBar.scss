@@ -1,0 +1,51 @@
+.sideBar {
+  height: calc(100vh - 70px);
+  flex: 2;
+  position: sticky;
+  top: 70px;
+  hr {
+    margin: 20px 0px;
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: lightgray;
+  }
+  span {
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .container {
+    padding: 15px;
+    border-radius: 20px;
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .user {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img {
+          width: 30px;
+          height: 30px;
+          object-fit: cover;
+          border-radius: 50%;
+        }
+        span {
+          font-size: 14px;
+        }
+      }
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img {
+          width: 1.25rem;
+        }
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
