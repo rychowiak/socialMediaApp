@@ -47,7 +47,7 @@ function NavBar() {
     >
       <div className="left">
         <Link
-          to="/"
+          to="/socialMediaApp"
           style={{ textDecoration: "none", color: colors.primary[100] }}
         >
           <span>SocialAPP</span>
