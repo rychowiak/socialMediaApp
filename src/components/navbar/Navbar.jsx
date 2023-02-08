@@ -53,7 +53,10 @@ function NavBar() {
           <span>SocialAPP</span>
         </Link>
         <IconButton>
-          <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+          <Link
+            to="/socialMediaApp"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
             <HomeOutlinedIcon />
           </Link>
         </IconButton>

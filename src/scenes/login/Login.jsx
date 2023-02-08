@@ -12,7 +12,7 @@ function Login() {
             libero inventore molestiae officia dolore perspiciatis ut.
           </p>
           <span>Don't have an account yet?</span>
-          <Link to="/register">
+          <Link to="/socialMediaApp/register">
             <button>Register</button>
           </Link>
         </div>

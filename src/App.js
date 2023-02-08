@@ -30,29 +30,29 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/socialMediaApp",
       element: <Layout />,
       children: [
         {
-          path: "/",
+          path: "/socialMediaApp",
           element: <Home />,
         },
         {
-          path: "/profile/:id",
+          path: "/socialMediaApp/profile/:id",
           element: <Profile />,
         },
       ],
     },
     {
-      path: "/",
+      path: "/socialMediaApp",
       errorElement: <ErrorPage />,
     },
     {
-      path: "/login",
+      path: "/socialMediaApp/login",
       element: <Login />,
     },
     {
-      path: "/register",
+      path: "/socialMediaApp/register",
       element: <Register />,
     },
   ]);

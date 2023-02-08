@@ -13,7 +13,7 @@ function Register() {
           <h1>GET STARTED.</h1>
           <p>
             Already have an account?{" "}
-            <Link to="/login">
+            <Link to="/socialMediaApp/login">
               <button>Log in.</button>
             </Link>
           </p>
